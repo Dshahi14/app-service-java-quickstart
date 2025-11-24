@@ -22,7 +22,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn clean package -Dmaven.compiler.release=11
+        run: mvn clean package -pl petstore-ee7 -am -Dmaven.compiler.release=11
 
       
       - name: Upload build artifact
