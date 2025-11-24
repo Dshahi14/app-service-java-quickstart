@@ -29,6 +29,6 @@ jobs:
         uses: actions/upload-artifact@v5.0.0
         with:
           name: java-app
-          path: target/*.war
+          path: petstore-ee7/target/*.war
 
     
